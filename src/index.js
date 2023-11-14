@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './Navbar';
+import Main1 from './Main1';
+import Main2 from './Main2';
+import Footer1 from './Footer1';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Navbar/>
+    <Main1/>
+    <Main2/>
+   <Footer1/>
   </React.StrictMode>
 );
 
