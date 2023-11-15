@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .py-3 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .vertical-line {
+        display: none; /* Hide vertical line on small screens */
+    }
+
+    .col-md-1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .col-md-11 {
+        width: 100%;
+    }
+
+    .p-3 {
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,20 @@
+/* Main1.css */
+
+/* Add your custom styles here */
+
+/* Adjustments for mobile responsiveness */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 8% !important;
+        margin-top: 4rem; /* Adjust padding for smaller screens */
+    }
+    .btn{
+       margin-bottom: 2rem;
+    }
+
+    .non-fluid-img {
+        width: 100%;
+        height: auto;
+        
+    }
+}

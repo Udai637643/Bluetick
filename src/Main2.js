@@ -2,6 +2,7 @@ import React from 'react'
 
 import second from "../src/img/burger1.png"
 import second2 from "../src/img/cake1.png"
+import "./css/main2.css"
 
 const Main2 = () => {
     return (
@@ -19,13 +20,13 @@ const Main2 = () => {
 
                         </div>
 
-                        <div className="col-md-11" style={{ borderRadius: "0.8rem", boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)" }}>
+                        <div className="col-md-11 col-sm-12" style={{ borderRadius: "0.8rem", boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)" }}>
                             <div className="row">
-                                <div className="col-md-3 d-flex align-items-center justify-content-center" style={{ backgroundColor: "#800080", borderTopLeftRadius: "0.4rem", borderBottomLeftRadius: "0.4rem" }}>
+                                <div className="col-md-3 col-sm-12 d-flex align-items-center justify-content-center" style={{ backgroundColor: "#800080", borderTopLeftRadius: "0.4rem", borderBottomLeftRadius: "0.4rem" }}>
                                     <h5 style={{ color: "#dda0dd" }}>20-08-2019</h5>
                                 </div>
 
-                                <div className="col-9 py-2" style={{ backgroundColor: "white", borderTopRightRadius: "0.4rem", borderBottomRightRadius: "0.4rem" }}>
+                                <div className="col-9 col-sm-9 py-2" style={{ backgroundColor: "white", borderTopRightRadius: "0.4rem", borderBottomRightRadius: "0.4rem" }}>
                                     <h6 style={{ color: "#800080" }}> BIRTHDAY</h6>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia quia incidunt cum voluptates dignissimos,
